@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    color: black;
+}
+
+#title{
+    text-align: center;
+}
+h1{
+    font-size: 3.5rem;
+        
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap ;
+    list-style-type: none;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.navbar li{
+    padding: 0.5rem;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 1.75rem;
+    font-style: italic;
+}
+
+.content{
+    background-color: white;
+    text-align: center;
+}
+
+#mission{
+    background-image: url("./img/skyscrapers.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#portfolio{
+  padding-top: 3rem;
+}
+
+#companies{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.card img{
+    width: 250px;
+    height: auto;
+    padding: 2px;
+}
+
+.card h3{
+    padding: 2px;
+    min-width: 200px;
+    margin-left: 5px;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+#team{
+    background-image: url("./img/blurred-roads.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#team h2{
+    padding: 5px;
+}
+
+#employees{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.person{
+  padding: 10px;
+  flex-basis: 280px;
+}
+
+.person img{
+    width: 200px;
+    height: auto;
+    margin: 2px;
+}
+
+.person h3, .person span{
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+}
+
